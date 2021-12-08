@@ -10,12 +10,6 @@ const functions = fs.readdirSync("./src/functions").filter(file => file.endsWith
 const commandFolders = fs.readdirSync("./src/commands");
 const eventFiles = fs.readdirSync("./src/events");
 
-//Playing	0, Streaming   1 Listening	2, Watching	3, Custom	4, Competing	5,
-client.on('ready', () => {
-    console.log(`The bot is online!`);
-    client.user.setPresence({ activities: [{ type: 3, name: 'Muxic' }], status: 'dnd' });
-});
-
 (async () => {
     for (file of functions) {
         require(`./functions/${file}`)(client);

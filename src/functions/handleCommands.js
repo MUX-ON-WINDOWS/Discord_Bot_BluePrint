@@ -6,9 +6,9 @@ const {
 } = require('discord-api-types/v9');
 const fs = require('fs');
 // Your bot ID (Client ID)
-const clientId = 'Bot ID';
+const clientId = '917702685015298088';
 // Sever ID where you want to let your bot work
-const guildId = 'Server ID';
+const guildId = '779841852798533653';
 
 module.exports = (client) => {
     client.handleCommands = async (commandFolders, path) => {
