@@ -2,20 +2,23 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+| Version | Supported          |
+| ------- | ------------------ |
+|  Discord.JS v13   | :white_check_mark: |
+|  Discord.JS v12   | :white_check_mark: |
+|  Discord.JS v11 or lower   | :x: |
+
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+|  Node.js 16.6.0 or newer is required.   | :white_check_mark: |
+|  Node.js 16.6.0 or lower.   | :x:                |
+
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+If theire is a vulnerability please get in touch me so I can fix it. 
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+## Update's
+
+If discord updates theire Version (currently at V13). I will also update my code.
