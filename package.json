@@ -4,8 +4,7 @@
   "description": "",
   "main": "bot.js",
   "scripts": {
-    "start": "node src/bot.js",
-    "test": "node src/bot.js"
+    "start": "node src/bot.js"
   },
   "author": "MUX_ON_WINDOWS",
   "license": "ISC",
