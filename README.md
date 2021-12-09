@@ -17,20 +17,19 @@
 
 | Version | Supported          |
 | ------- | ------------------ |
-| Expres   | :white_check_mark: |
+| Express   | :white_check_mark: |
 
-## Installation
-| ------------------------- |
+## Express installation
 |  $ npm install express    |
 | ------------------------- |
 
-Important changes
+## Important changes
 - Change/ fill in the token
 - Change Client ID
 - Change Guild ID
 
 
-See the images for the requirements for the bot.
+## Requirements for the bot
 
 ![sc_doc_spec_discobot](https://user-images.githubusercontent.com/71127049/145370772-2e620cd8-5ce9-4f67-bd2c-1e5d5853807d.png)
 
