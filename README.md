@@ -1,12 +1,28 @@
 # Discord bot blueprint
 
-To let this bot work you need: 
-- DiscordV13
-- Node V17+ 
-- fs
+## Supported Versions
 
-To let the server work you need
-- express
+| Version | Supported          |
+| ------- | ------------------ |
+|  Discord.JS v13   | :white_check_mark: |
+|  Discord.JS v12   | :white_check_mark: |
+|  Discord.JS v11 or lower   | :x: |
+
+| Version | Supported          |
+| ------- | ------------------ |
+|  Node.js 16.6.0 or newer is required.   | :white_check_mark: |
+|  Node.js 16.6.0 or lower.   | :x:                |
+
+## Server requirements
+
+| Version | Supported          |
+| ------- | ------------------ |
+| Expres   | :white_check_mark: |
+
+## Installation
+| ------------------------- |
+|  $ npm install express    |
+| ------------------------- |
 
 Important changes
 - Change/ fill in the token
