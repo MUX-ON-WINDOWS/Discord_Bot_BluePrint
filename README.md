@@ -1,3 +1,5 @@
+# Discord bot blueprint
+
 To let this bot work you need: 
 - DiscordV13
 - Node V17+ 
