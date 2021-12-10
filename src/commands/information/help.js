@@ -32,7 +32,7 @@ module.exports = {
                               inline: true
                         }, {
                               name: 'Command ',
-                              value: `empty/ not yet used`,
+                              value: `/github`,
                               inline: true
                         }, {
                               name: 'Command:',
