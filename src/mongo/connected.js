@@ -1,5 +1,5 @@
 module.exports = {
-    name : 'Connected',
+    name : 'connected',
     async execute() {
         console.log('Connected to database!');
     },

@@ -1,6 +1,6 @@
 module.exports = {
-    name : 'Disconnected',
+    name : 'disconnected',
     async execute() {
-        console.log('Disconnected from databas!e');
+        console.log('Disconnected from database!');
     },
 };
