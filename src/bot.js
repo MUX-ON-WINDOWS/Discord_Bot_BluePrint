@@ -1,8 +1,14 @@
 const { Client, Intents, Collection } = require('discord.js');
 const fs = require('fs');
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
+<<<<<<< HEAD
 // const keepAlive = require('./server.js')
 // keepAlive();
+=======
+const keepAlive = require('./server.js');
+keepAlive();
+>>>>>>> 75c73ea8639dcb739595f338a3825250076187ed
+
 
 client.commands = new Collection();
 
