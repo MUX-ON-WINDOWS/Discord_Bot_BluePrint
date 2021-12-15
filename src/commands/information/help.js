@@ -28,33 +28,35 @@ module.exports = {
                               inline: true
                         }, {
                               name: 'Command:',
-                              value: `/ping`,
+                              value: `/info user`,
                               inline: true
                         }, {
-                              name: 'Command ',
-                              value: `/github`,
-                              inline: true
-                        }, {
-                              name: 'Command:',
-                              value: `empty/ not yet used`,
-                              inline: true
-                        }, {
-                              name: 'Command ',
-                              value: `empty/ not yet used`,
+                              name: 'Command: ',
+                              value: `/sellix shop`,
                               inline: true
                         }, {
                               name: 'Command:',
-                              value: `empty/ not yet used`,
+                              value: `/face`,
                               inline: true
-                        }, {
-                              name: 'Command ',
-                              value: `empty/ not yet used`,
-                              inline: true
-                        }, {
-                              name: 'Command:',
-                              value: `empty/ not yet used`,
-                              inline: true
-                        }, )
+                        },
+                        // {
+                        //       name: 'Command ',
+                        //       value: `empty/ not yet used`,
+                        //       inline: true
+                        // }, {
+                        //       name: 'Command:',
+                        //       value: `empty/ not yet used`,
+                        //       inline: true
+                        // }, {
+                        //       name: 'Command ',
+                        //       value: `empty/ not yet used`,
+                        //       inline: true
+                        // }, {
+                        //       name: 'Command:',
+                        //       value: `empty/ not yet used`,
+                        //       inline: true
+                        // },
+                        )
                         .setTimestamp()
                         .setColor("RANDOM")
                         .setFooter(`${client.user.tag}`, client.user.displayAvatarURL());
