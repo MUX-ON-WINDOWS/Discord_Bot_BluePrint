@@ -8,7 +8,7 @@ module.exports = {
 		.setDescription('I will show you my face'),
 	async execute(interaction) {
 		const message = await interaction.reply({
-			content: '( ͡° ͜ʖ ͡°)╭∩╮',
+			content: '( ͡° ͜ʖ ͡°)╭∩╮' || 'ʕっ•ᴥ•ʔっ',
 			fetchReply: true
 		});
 		const reactionEmoji = message.guild.emojis.cache.find(emoji => emoji.name === 'monkey');
